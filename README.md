@@ -16,11 +16,8 @@ This notebook demonstrates a documentation-based ransomware risk assessment. It 
 - NIST Cybersecurity Framework (CSF) 2.0 as the risk-management reference
 
 ## Files
-- `Nikyaa_EnterpriseRansomwareAssessment.ipynb` — complete notebook code and explanations
+- `Nikhil_EnterpriseRansomwareAssessment.ipynb` — complete notebook code and explanations
 - `requirements.txt` — Python dependency list
-- `Ransomware_Risk_Assessment_Report.docx` — project report
-- `Ransomware_Risk_Register.xlsx` — risk register and scoring guide
-- `Ransomware_Risk_Assessment_Presentation.pptx` — presentation slides
 - `README.md` — project overview and run instructions
 
 ## Dataset
@@ -30,7 +27,7 @@ No external dataset is required. The risk scenarios are illustrative and are emb
 
 ### Option 1: Run in Google Colab
 1. Open Google Colab: https://colab.research.google.com/
-2. Upload `Nikyaa_EnterpriseRansomwareAssessment.ipynb`.
+2. Upload `Nikhil_EnterpriseRansomwareAssessment.ipynb`.
 3. Run the notebook cells from top to bottom.
 4. If pandas is missing, run `!pip install -r requirements.txt` after uploading the requirements file, or run `!pip install pandas`.
 5. The last code cell exports `ransomware_risk_register.csv`.
@@ -40,7 +37,7 @@ No external dataset is required. The risk scenarios are illustrative and are emb
 2. Open a terminal in the project folder.
 3. Install dependencies: `python -m pip install -r requirements.txt`
 4. Start Jupyter: `python -m pip install notebook` then `jupyter notebook`
-5. Open `Nikyaa_EnterpriseRansomwareAssessment.ipynb` and run all cells.
+5. Open `Nikhil_EnterpriseRansomwareAssessment.ipynb` and run all cells.
 
 ## Risk scoring
 - Likelihood: 1 (rare) to 5 (almost certain)
