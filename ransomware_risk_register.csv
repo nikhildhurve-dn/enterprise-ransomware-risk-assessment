@@ -1,0 +1,11 @@
+Risk ID,Risk Scenario,Assets,Likelihood,Impact,Controls,NIST CSF Mapping,Owner,Target,Risk Score,Risk Level,Residual Risk (illustrative)
+R01,Phishing email enables credential theft or malware execution,Email users and endpoints,4,5,Email filtering; awareness training; MFA; reporting process,Protect / Detect,IT Security Lead,30 days,20,High,Medium
+R02,Unpatched software is exploited,Servers and workstations,4,4,Asset inventory; risk-based patching; vulnerability management,Identify / Protect,IT Operations,30 days,16,High,Medium
+R03,Ransomware spreads laterally across the network,"Endpoints, file shares, servers",3,5,Network segmentation; endpoint detection; least privilege,Protect / Detect,Network Administrator,60 days,15,High,Medium
+R04,"Backups are encrypted, deleted, or unavailable",Backup repositories and business data,3,5,Offline/immutable backups; separate credentials; restore tests,Protect / Recover,Backup Administrator,30 days,15,High,Low-Medium
+R05,Excessive privileges increase compromise impact,Identity and access management,3,4,Least privilege; separate admin accounts; access reviews; MFA,Govern / Protect,IAM Administrator,45 days,12,Medium,Medium
+R06,Suspicious activity is not detected promptly,"Logs, endpoints, identity systems",3,4,Centralized logging; alerting; incident triage,Detect,Security Analyst,45 days,12,Medium,Medium
+R07,Incident response roles and communications are unclear,Business operations and response team,3,4,Written response plan; contacts; tabletop exercise,Govern / Respond,Incident Response Coordinator,30 days,12,Medium,Medium
+R08,Sensitive data is exposed during or after an incident,Customer and business data,2,5,Data classification; encryption; access controls; escalation path,Identify / Protect / Respond,Data Protection Owner,60 days,10,Medium,Medium
+R09,Third-party remote access is abused,Vendor access and remote administration,3,4,MFA; time-limited access; vendor reviews; approved gateway,Govern / Protect,Vendor Risk Owner,60 days,12,Medium,Medium
+R10,Recovery is delayed because restoration priorities are unknown,Critical business services,3,4,Business impact analysis; recovery priorities; tested recovery targets,Govern / Recover,Business Continuity Lead,60 days,12,Medium,Medium
